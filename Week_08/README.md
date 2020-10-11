@@ -1,3 +1,4 @@
+'''
 #选择排序
 
 def selectSort(L):
@@ -44,4 +45,4 @@ class Mysort:
                 if L_random[j]>L_random[j+1]:
                     L_random[j],L_random[j+1] =L_random[j+1],L_random[j]
         return L_random
-
+'''
