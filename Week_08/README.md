@@ -1,6 +1,6 @@
 
 #选择排序
-'''
+```
 def selectSort(L):
     length = len(L)
     for i in range(length-1):
@@ -11,10 +11,10 @@ def selectSort(L):
                 minIndex = j
             L[i],L[minIndex] = L[minIndex],L[i]
     return L
-'''
+```
 
 #插入排序
-'''
+```
 def insertSort(L):
     length = len(L)
     首次进来 第一个元素作为已排序的序列
@@ -24,9 +24,9 @@ def insertSort(L):
             if L[j]>L[j+1]:
                 L[j],L[j+1]=L[j+1],L[j]
     return L
-'''
+```
 #冒泡排序
-'''
+```
 class Mysort:
     def __init__(self,start,end,count):
         stat end为随机数生成范围
@@ -45,4 +45,4 @@ class Mysort:
                 if L_random[j]>L_random[j+1]:
                     L_random[j],L_random[j+1] =L_random[j+1],L_random[j]
         return L_random
-'''
+```
