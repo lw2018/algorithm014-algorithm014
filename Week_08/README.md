@@ -1,9 +1,9 @@
 #选择排序
+
 def selectSort(L):
     length = len(L)
     for i in range(length-1):
         minIndex = i
-
         #index从i+1到最后面 不断比较得出一个最小的放在结果中
         for j in range(i+1,length):
             if L[j]< L[minIndex]:
@@ -13,6 +13,7 @@ def selectSort(L):
 
 
 #插入排序
+
 def insertSort(L):
     length = len(L)
     #首次进来 第一个元素作为已排序的序列
@@ -24,10 +25,10 @@ def insertSort(L):
     return L
 
 #冒泡排序
+
 class Mysort:
     def __init__(self,start,end,count):
         #stat end为随机数生成范围
-       
         self.start=start
         self.end=end
         self.count=count
